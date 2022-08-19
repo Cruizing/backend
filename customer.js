@@ -26,7 +26,7 @@ router.get("/", (request, response) => {
       response.status(200).send(results);
     }
   });
-});
+}); 
 //Note: use query instead of all for MySQL - database.connection.query("select * from customer"
 
 // defines an API which takes id in the request and return the record in response
